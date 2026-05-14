@@ -16,7 +16,7 @@
 // ==/UserScript==
 /* jshint esversion: 11 */
 (async function () {
-    "use strict";    
+    "use strict";
     const bearer = localStorage.getItem('accessToken');
     const DELAY_MS = 5000;
     const BASE = "https://m3u4u.com/api";
