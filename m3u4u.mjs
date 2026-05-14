@@ -2,11 +2,11 @@
 // @name            m3u4u playlists synchronizer
 // @name:fr         m3u4u synchronizeur de playlists
 // @namespace       https://m3u4u.com/
-// @version         2026-05-14
+// @version         2026-05-15
 // @description     m3u4u.com playlists synchronizer
 // @description:fr  m3u4u.com synchronizeur de playlists 
 // @license         MIT
-// @author          github.com/Macadoshis
+// @author          https://github.com/Macadoshis
 // @match           https://m3u4u.com/playlists
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=m3u4u.com
 // @grant           none
@@ -17,7 +17,7 @@
 /* jshint esversion: 11 */
 (async function () {
     "use strict";    
-    const BEARER = localStorage.getItem('accessToken');
+    const bearer = localStorage.getItem('accessToken');
     const DELAY_MS = 5000;
     const BASE = "https://m3u4u.com/api";
 
@@ -28,7 +28,7 @@
 
     const headers = {
         "Accept": "application/json, text/plain, */*",
-        "Authorization": `Bearer ${BEARER}`,
+        "Authorization": `Bearer ${bearer}`,
         "Content-Type": "application/json",
         "x-m3u4u-xyz": m3u4uCookie()
     };
