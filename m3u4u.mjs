@@ -11,8 +11,8 @@
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=m3u4u.com
 // @grant           none
 // @esversion       11
-// @downloadURL     https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.user.js
-// @updateURL       https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.meta.js
+// @downloadURL     https://raw.githubusercontent.com/Macadoshis/greasyfork/refs/heads/main/m3u4u.mjs
+// @updateURL       https://raw.githubusercontent.com/Macadoshis/greasyfork/refs/heads/main/m3u4u.mjs
 // ==/UserScript==
 /* jshint esversion: 11 */
 (async function () {
