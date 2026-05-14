@@ -2,7 +2,7 @@
 // @name            m3u4u playlists synchronizer
 // @name:fr         m3u4u synchronizeur de playlists
 // @namespace       https://m3u4u.com/
-// @version         2026-05-13
+// @version         2026-05-14
 // @description     m3u4u.com playlists synchronizer
 // @description:fr  m3u4u.com synchronizeur de playlists 
 // @license         MIT
@@ -11,7 +11,6 @@
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=m3u4u.com
 // @grant           none
 // @esversion       11
-// @version         3
 // @downloadURL     https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.user.js
 // @updateURL       https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.meta.js
 // ==/UserScript==
