@@ -10,9 +10,10 @@
 // @match           https://m3u4u.com/playlists
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=m3u4u.com
 // @grant           none
-// @esversion       8
-// @downloadURL https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.user.js
-// @updateURL https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.meta.js
+// @esversion       11
+// @version         3
+// @downloadURL     https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.user.js
+// @updateURL       https://update.greasyfork.org/scripts/578171/m3u4u%20playlists%20synchronizer.meta.js
 // ==/UserScript==
 /* jshint esversion: 11 */
 (async function () {
