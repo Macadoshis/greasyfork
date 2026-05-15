@@ -10,7 +10,6 @@
 // @match           https://m3u4u.com/playlists
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=m3u4u.com
 // @grant           none
-// @esversion       11
 // @downloadURL     https://raw.githubusercontent.com/Macadoshis/greasyfork/refs/heads/main/m3u4u.mjs
 // @updateURL       https://raw.githubusercontent.com/Macadoshis/greasyfork/refs/heads/main/m3u4u.mjs
 // ==/UserScript==
