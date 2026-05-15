@@ -2,7 +2,7 @@
 // @name            m3u4u playlists synchronizer
 // @name:fr         m3u4u synchronizeur de playlists
 // @namespace       https://m3u4u.com/
-// @version         2026-05-15
+// @version         2026-05-16
 // @description     m3u4u.com playlists synchronizer
 // @description:fr  m3u4u.com synchronizeur de playlists 
 // @license         MIT
