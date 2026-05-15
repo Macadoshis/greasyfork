@@ -16,7 +16,7 @@
 /* jshint esversion: 11 */
 (async function () {
     "use strict";
-    
+
     // Check last-sync timestamp
     const now = new Date();
     const currentSync = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}`;
@@ -26,18 +26,18 @@
     } catch (e) {
         lastSync = null;
     }
-    
+
     if (lastSync === currentSync) {
         console.log(`Already synced at ${currentSync}. Exiting.`);
         return;
     }
-    
+
     try {
         sessionStorage.setItem('last-sync', currentSync);
     } catch (e) {
         console.log('Warning: Could not write last-sync key to sessionStorage');
     }
-    
+
     const bearer = localStorage.getItem('accessToken');
     const DELAY_MS = 5000;
     const BASE = "https://m3u4u.com/api";
